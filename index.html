@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <video autoplay loop muted id="bg-video">
+        <source src="background.jp" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="todo-main">
+        <div class="layer">
+            <div class="heading">
+                <h1>To Do List 📃</h1>
+            </div>
+            <div class="some">
+                <div class="input-container">
+                    <input type="text" id="input-field" placeholder="Add new task">
+                    <button id="done-button">Done</button>
+                </div>
+                <div class="filter-container">
+                    <select name="filter-task" id="filter-task">
+                        <option value="All">All</option>
+                        <option value="Complete">done</option>
+                        <option value="Pending">Pending</option>
+                    </select>
+                </div>
+            </div>
+            <div class="todo-list">
+                <ul class="list-ul">
+                </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
