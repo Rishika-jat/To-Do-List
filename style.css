@@ -155,7 +155,7 @@ body {
   
 }
 
-@media (max-width:425px) and (min-width:300px){
+@media (max-width:430px) and (min-width:300px){
   #bg-video{
     display: none;
    
@@ -181,4 +181,29 @@ width: 250px;
   align-items: center;
   
   }
+  .some{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  }
+  .input-container{
+    padding: 0;
+  }
+}
+
+@media (max-width:1024) {
+  
+  #bg-video{
+    display: none;
+   
+    }
+    .main-container{
+      height: 100vh;
+    
+      display: flex;
+      justify-content: center;
+    align-items: center;
+    }
 }
