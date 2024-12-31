@@ -139,3 +139,46 @@ body {
     no-repeat right 10px center;
   background-color: white;
 }
+
+
+@media (max-width:768px) and (min-width:425px) {
+  #bg-video{
+  display: none;
+ 
+  }
+  .main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  
+}
+
+@media (max-width:425px) and (min-width:300px){
+  #bg-video{
+    display: none;
+   
+    }
+  .todo-main{
+    height:550px;
+    width: 320px;
+  }
+  .layer{
+    width: 300px;
+  height: 500px;
+  }
+  .input-container{
+width: 150px;
+  }
+  .todo-item{
+width: 250px;
+  }
+  .main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  
+  }
+}
